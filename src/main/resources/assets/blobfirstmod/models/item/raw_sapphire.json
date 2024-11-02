@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "blobfirstmod:item/sapphire"
+    "layer0": "blobfirstmod:item/raw_sapphire"
   }
 }
