@@ -51,3 +51,4 @@ public class TutorialMod
         }
     }
 }
+String balls = "cock";
