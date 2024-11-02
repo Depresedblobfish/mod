@@ -1,4 +1,7 @@
 {
   "item.blobfirstmod.sapphire": "Sapphire",
-  "item.blobfirstmod.raw_sapphire": "Raw Sapphire"
+  "item.blobfirstmod.raw_sapphire": "Raw Sapphire",
+  "block.blobfirstmod.sapphire_block": "Block of Sapphire",
+  "block.blobfirstmod.raw_sapphire_block": "Block of Raw Sapphire",
+  "creativetab.blobmod_items": "Blob's Items"
 }

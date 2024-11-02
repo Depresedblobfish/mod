@@ -1,6 +1,8 @@
 package net.luke.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.luke.tutorialmod.block.ModBlocks;
+import net.luke.tutorialmod.item.ModCreativeModeTabs;
 import net.luke.tutorialmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -27,6 +29,8 @@ public class TutorialMod
     {
         IEventBus modEventBus = context.getModEventBus();
 
+        ModCreativeModeTabs.register(modEventBus);
+        ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
@@ -39,10 +43,6 @@ public class TutorialMod
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.SAPPHIRE);
-            event.accept(ModItems.RAW_SAPPHIRE);
-        }
     }
 
 
