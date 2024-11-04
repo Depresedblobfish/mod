@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc,",
+  "ingredients": [
+    {
+      "item": "blobfirstmod:sapphire"
+    }
+  ],
+  "result": {
+    "item": "blobfirstmod:sapphire_nugget",
+    "count": 9
+  }
+}
