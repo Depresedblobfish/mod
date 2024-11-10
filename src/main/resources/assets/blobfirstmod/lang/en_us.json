@@ -9,6 +9,7 @@
   "block.blobfirstmod.sapphire_ore": "Sapphire Ore",
   "block.blobfirstmod.end_stone_sapphire_ore": "End Stone Sapphire Ore",
   "block.blobfirstmod.nether_sapphire_ore": "Nether Sapphire Ore",
-  "block.blobfirstmod.deepslate_sapphire_ore": "Deepslate Sapphire Ore"
+  "block.blobfirstmod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.blobfirstmod.sound_block": "Sound Block"
 
 }
