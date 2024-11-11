@@ -1,11 +1,12 @@
 {
   "item.blobfirstmod.sapphire": "Sapphire",
+  "creativetab.blobmod_items": "Blob's Items",
   "item.blobfirstmod.raw_sapphire": "Raw Sapphire",
   "item.blobfirstmod.sapphire_nugget": "Sapphire Nugget",
   "item.blobfirstmod.metal_detector": "Metal Detector",
+  "item.blobfirstmod.strawberry" : "Strawberry",
   "block.blobfirstmod.sapphire_block": "Block of Sapphire",
   "block.blobfirstmod.raw_sapphire_block": "Block of Raw Sapphire",
-  "creativetab.blobmod_items": "Blob's Items",
   "block.blobfirstmod.sapphire_ore": "Sapphire Ore",
   "block.blobfirstmod.end_stone_sapphire_ore": "End Stone Sapphire Ore",
   "block.blobfirstmod.nether_sapphire_ore": "Nether Sapphire Ore",
