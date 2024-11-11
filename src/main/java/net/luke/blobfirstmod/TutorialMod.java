@@ -1,10 +1,9 @@
-package net.luke.tutorialmod;
+package net.luke.blobfirstmod;
 
 import com.mojang.logging.LogUtils;
-import net.luke.tutorialmod.block.ModBlocks;
-import net.luke.tutorialmod.item.ModCreativeModeTabs;
-import net.luke.tutorialmod.item.ModItems;
-import net.minecraft.world.item.CreativeModeTabs;
+import net.luke.blobfirstmod.block.ModBlocks;
+import net.luke.blobfirstmod.item.ModCreativeModeTabs;
+import net.luke.blobfirstmod.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;

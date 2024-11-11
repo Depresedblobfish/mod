@@ -1,12 +1,10 @@
-package net.luke.tutorialmod.item;
+package net.luke.blobfirstmod.item;
 
-import net.luke.tutorialmod.TutorialMod;
-import net.luke.tutorialmod.block.ModBlocks;
-import net.luke.tutorialmod.block.custom.SoundBlock;
+import net.luke.blobfirstmod.TutorialMod;
+import net.luke.blobfirstmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -25,6 +23,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SAPPHIRE_NUGGET.get());
                         output.accept(ModItems.METAL_DETECTOR.get());
                         output.accept(ModItems.STRAWBERRY.get());
+                        output.accept(ModItems.COMPRESSED_BIOMASS.get());
                         output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
                         output.accept(ModBlocks.SAPPHIRE_ORE.get());

@@ -1,7 +1,8 @@
-package net.luke.tutorialmod.item;
+package net.luke.blobfirstmod.item;
 
-import net.luke.tutorialmod.TutorialMod;
-import net.luke.tutorialmod.item.custom.MetalDetectorItem;
+import net.luke.blobfirstmod.TutorialMod;
+import net.luke.blobfirstmod.item.custom.FuelItem;
+import net.luke.blobfirstmod.item.custom.MetalDetectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,6 +22,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_NUGGET = ITEMS.register("sapphire_nugget",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> COMPRESSED_BIOMASS = ITEMS.register("compressed_biomass",
+            () -> new FuelItem(new Item.Properties(),2000));
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
             () -> new MetalDetectorItem(new Item.Properties()
                     .durability(120)

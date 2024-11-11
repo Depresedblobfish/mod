@@ -1,8 +1,8 @@
-package net.luke.tutorialmod.block;
+package net.luke.blobfirstmod.block;
 
-import net.luke.tutorialmod.TutorialMod;
-import net.luke.tutorialmod.block.custom.SoundBlock;
-import net.luke.tutorialmod.item.ModItems;
+import net.luke.blobfirstmod.TutorialMod;
+import net.luke.blobfirstmod.block.custom.SoundBlock;
+import net.luke.blobfirstmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;

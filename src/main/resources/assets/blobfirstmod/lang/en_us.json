@@ -1,6 +1,7 @@
 {
-  "item.blobfirstmod.sapphire": "Sapphire",
   "creativetab.blobmod_items": "Blob's Items",
+  "item.blobfirstmod.sapphire": "Sapphire",
+  "item.blobfirstmod.compressed_biomass": "Compressed Biomass",
   "item.blobfirstmod.raw_sapphire": "Raw Sapphire",
   "item.blobfirstmod.sapphire_nugget": "Sapphire Nugget",
   "item.blobfirstmod.metal_detector": "Metal Detector",
@@ -11,6 +12,7 @@
   "block.blobfirstmod.end_stone_sapphire_ore": "End Stone Sapphire Ore",
   "block.blobfirstmod.nether_sapphire_ore": "Nether Sapphire Ore",
   "block.blobfirstmod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
-  "block.blobfirstmod.sound_block": "Sound Block"
+  "block.blobfirstmod.sound_block": "Sound Block",
+  "tooltip.blobfirstmod.metal_detector.tooltip": "Right click to find if there is iron or diamonds underground where you clicked!"
 
 }

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "sound_block",
+  "ingredient": {
+    "item": "minecraft:note_block"
+  },
+  "result": "blobfirstmod:sound_block"
+}
