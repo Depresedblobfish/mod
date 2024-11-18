@@ -1,6 +1,6 @@
 package net.luke.blobfirstmod.item;
 
-import net.luke.blobfirstmod.TutorialMod;
+import net.luke.blobfirstmod.BlobFirstMod;
 import net.luke.blobfirstmod.item.custom.FuelItem;
 import net.luke.blobfirstmod.item.custom.MetalDetectorItem;
 import net.minecraft.world.item.Item;
@@ -12,7 +12,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, TutorialMod.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, BlobFirstMod.MOD_ID);
 
     public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",
             () -> new Item(new Item.Properties()));

@@ -1,6 +1,6 @@
 package net.luke.blobfirstmod.item;
 
-import net.luke.blobfirstmod.TutorialMod;
+import net.luke.blobfirstmod.BlobFirstMod;
 import net.luke.blobfirstmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -12,7 +12,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
-            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TutorialMod.MOD_ID);
+            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, BlobFirstMod.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> Items = CREATIVE_MODE_TABS.register("blobmod_items",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RAW_SAPPHIRE.get()))

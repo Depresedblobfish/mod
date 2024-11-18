@@ -1,6 +1,6 @@
 package net.luke.blobfirstmod.block;
 
-import net.luke.blobfirstmod.TutorialMod;
+import net.luke.blobfirstmod.BlobFirstMod;
 import net.luke.blobfirstmod.block.custom.SoundBlock;
 import net.luke.blobfirstmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -20,7 +20,7 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
-            DeferredRegister.create(ForgeRegistries.BLOCKS, TutorialMod.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.BLOCKS, BlobFirstMod.MOD_ID);
 
     public static final RegistryObject<Block> SAPPHIRE_BLOCK = registerBlock("sapphire_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST )));
