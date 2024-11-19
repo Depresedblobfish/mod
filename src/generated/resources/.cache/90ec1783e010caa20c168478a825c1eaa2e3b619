@@ -1,0 +1,6 @@
+// 1.20.1	2024-11-17T16:55:29.5256477	Tags for minecraft:block mod id blobfirstmod
+4577a8759cb3a33443c47e7ac09a737567848247 data/blobfirstmod/tags/blocks/metal_detector_valuables.json
+64f43c08593b3450de22577a4951f2198d84d6ec data/forge/tags/blocks/needs_netherite_tool.json
+5ac85f9d0b9fb532dd61208acd09105143bcec39 data/minecraft/tags/blocks/mineable/pickaxe.json
+762d7d272e88efe86459fe61158a1fb422391860 data/minecraft/tags/blocks/needs_diamond_tool.json
+647d404c98341a800fe824509d7abdae868b2807 data/minecraft/tags/blocks/needs_iron_tool.json
