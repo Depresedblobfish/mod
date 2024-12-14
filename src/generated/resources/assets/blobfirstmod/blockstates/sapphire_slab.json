@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blobfirstmod:block/sapphire_slab"
+    },
+    "type=double": {
+      "model": "blobfirstmod:block/sapphire_block"
+    },
+    "type=top": {
+      "model": "blobfirstmod:block/sapphire_slab_top"
+    }
+  }
+}
