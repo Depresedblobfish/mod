@@ -5,6 +5,7 @@ import net.luke.blobfirstmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -14,27 +15,45 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, BlobFirstMod.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> Items = CREATIVE_MODE_TABS.register("blobmod_items",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RAW_SAPPHIRE.get()))
+    public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE_TABS.register("tutorial_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
                     .title(Component.translatable("creativetab.blobmod_items"))
-                    .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.SAPPHIRE.get());
-                        output.accept(ModItems.RAW_SAPPHIRE.get());
-                        output.accept(ModItems.SAPPHIRE_NUGGET.get());
-                        output.accept(ModItems.METAL_DETECTOR.get());
-                        output.accept(ModItems.STRAWBERRY.get());
-                        output.accept(ModItems.COMPRESSED_BIOMASS.get());
-                        output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
-                        output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
-                        output.accept(ModBlocks.SAPPHIRE_ORE.get());
-                        output.accept(ModBlocks.END_STONE_SAPPHIRE_ORE.get());
-                        output.accept(ModBlocks.NETHER_SAPPHIRE_ORE.get());
-                        output.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
-                        output.accept(ModBlocks.SOUND_BLOCK.get());
+                    .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModItems.SAPPHIRE.get());
+                        pOutput.accept(ModItems.RAW_SAPPHIRE.get());
+
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
+
+                        pOutput.accept(Items.DIAMOND);
+
+                        pOutput.accept(ModItems.STRAWBERRY.get());
+                        pOutput.accept(ModItems.SAPPHIRE_STAFF   .get());
+                        pOutput.accept(ModItems.COMPRESSED_BIOMASS.get());
+
+                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+
+                        pOutput.accept(ModBlocks.SAPPHIRE_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
+                        pOutput.accept(ModBlocks.NETHER_SAPPHIRE_ORE.get());
+                        pOutput.accept(ModBlocks.END_STONE_SAPPHIRE_ORE.get());
+
+                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
+
+                        pOutput.accept(ModBlocks.SAPPHIRE_STAIRS.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_SLAB.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_BUTTON.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_PRESSURE_PLATE.get());
+
+                        pOutput.accept(ModBlocks.SAPPHIRE_FENCE.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_WALL.get());
+
+                        pOutput.accept(ModBlocks.SAPPHIRE_DOOR.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_TRAPDOOR.get());
 
                     })
                     .build());
-
 
 
     public static void register(IEventBus eventBus) {

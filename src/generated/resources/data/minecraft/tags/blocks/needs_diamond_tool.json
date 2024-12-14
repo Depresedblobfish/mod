@@ -1,6 +1,15 @@
 {
   "values": [
     "blobfirstmod:raw_sapphire_block",
-    "blobfirstmod:sapphire_block"
+    "blobfirstmod:sapphire_block",
+    "blobfirstmod:sapphire_stairs",
+    "blobfirstmod:sapphire_slab",
+    "blobfirstmod:sapphire_button",
+    "blobfirstmod:sapphire_pressure_plate",
+    "blobfirstmod:sapphire_fence",
+    "blobfirstmod:sapphire_fence_gate",
+    "blobfirstmod:sapphire_wall",
+    "blobfirstmod:sapphire_door",
+    "blobfirstmod:sapphire_trapdoor"
   ]
 }

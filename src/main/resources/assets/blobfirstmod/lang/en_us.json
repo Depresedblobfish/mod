@@ -13,6 +13,16 @@
   "block.blobfirstmod.nether_sapphire_ore": "Nether Sapphire Ore",
   "block.blobfirstmod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
   "block.blobfirstmod.sound_block": "Sound Block",
-  "tooltip.blobfirstmod.metal_detector.tooltip": "Right click to find oresca underground where you clicked!"
+  "tooltip.blobfirstmod.metal_detector.tooltip": "Right click to find oresca underground where you clicked!",
+
+  "block.blobfirstmod.sapphire_stairs": "Sapphire Stairs",
+  "block.blobfirstmod.sapphire_slab": "Sapphire Slab",
+  "block.blobfirstmod.sapphire_button": "Sapphire Button",
+  "block.blobfirstmod.sapphire_pressure_plate": "Sapphire Pressure Plate",
+  "block.blobfirstmod.sapphire_fence": "Sapphire Fence",
+  "block.blobfirstmod.sapphire_fence_gate": "Sapphire Fence_gate",
+  "block.blobfirstmod.sapphire_wall": "Sapphire Wall",
+  "block.blobfirstmod.sapphire_door": "Sapphire Door",
+  "block.blobfirstmod.sapphire_trapdoor": "Sapphire Trapdoor"
 
 }
