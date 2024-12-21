@@ -27,8 +27,14 @@ public class ModCreativeModeTabs {
                         pOutput.accept(Items.DIAMOND);
 
                         pOutput.accept(ModItems.STRAWBERRY.get());
-                        pOutput.accept(ModItems.SAPPHIRE_STAFF   .get());
+                        pOutput.accept(ModItems.SAPPHIRE_STAFF.get());
                         pOutput.accept(ModItems.COMPRESSED_BIOMASS.get());
+
+                        pOutput.accept(ModItems.SAPPHIRE_SWORD.get());
+                        pOutput.accept(ModItems.SAPPHIRE_PICKAXE.get());
+                        pOutput.accept(ModItems.SAPPHIRE_AXE.get());
+                        pOutput.accept(ModItems.SAPPHIRE_SHOVEL.get());
+                        pOutput.accept(ModItems.SAPPHIRE_HOE.get());
 
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());

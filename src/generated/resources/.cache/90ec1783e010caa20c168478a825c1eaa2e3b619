@@ -1,5 +1,6 @@
-// 1.20.1	2024-12-08T14:11:04.0327033	Tags for minecraft:block mod id blobfirstmod
+// 1.20.1	2024-12-14T15:30:32.5245776	Tags for minecraft:block mod id blobfirstmod
 4577a8759cb3a33443c47e7ac09a737567848247 data/blobfirstmod/tags/blocks/metal_detector_valuables.json
+4c7fea1c357225d5edcbd6b41366a9a3c0051fba data/blobfirstmod/tags/blocks/needs_sapphire_tool.json
 64f43c08593b3450de22577a4951f2198d84d6ec data/forge/tags/blocks/needs_netherite_tool.json
 26e1632ed73e9760fe88b33c2dde54f3599fae04 data/minecraft/tags/blocks/fences.json
 556eb5a3f405477a8acfb8cb4c783ebbfba6022f data/minecraft/tags/blocks/fence_gates.json

@@ -1,15 +1,20 @@
-// 1.20.1	2024-12-08T13:54:27.7508987	Item Models: blobfirstmod
+// 1.20.1	2024-12-14T15:30:32.5255739	Item Models: blobfirstmod
 1972707f5ea4e0428c4113aedb7311103562e6aa assets/blobfirstmod/models/item/compressed_biomass.json
 c3e2b8ee715fadc5ba558d93eb97ea95b2dba788 assets/blobfirstmod/models/item/metal_detector.json
 ac06c04986e66b1217b83b02b04f164017d742cf assets/blobfirstmod/models/item/raw_sapphire.json
 121817bd9638f2d9079e3cf35765ea7bdbdd3869 assets/blobfirstmod/models/item/sapphire.json
+038b80692ec444fa197774c1e7f5e24c04dcf3da assets/blobfirstmod/models/item/sapphire_axe.json
 28ce59422558b13d348d99189f8393435bc79a30 assets/blobfirstmod/models/item/sapphire_button.json
 c7a4c316ae4990947d3310789cfc00e70edf2514 assets/blobfirstmod/models/item/sapphire_door.json
 0d6a3fb6e828bc78e5fd42211ae54ecb766dd10b assets/blobfirstmod/models/item/sapphire_fence.json
 a468f7e66644c85853c31549392840ab4fc21dc7 assets/blobfirstmod/models/item/sapphire_fence_gate.json
+ccde2f28b60689161d1c913dcc3f7e79cbda5b95 assets/blobfirstmod/models/item/sapphire_hoe.json
+38e782a509c25f6431087a5c7d06e394e5da5b63 assets/blobfirstmod/models/item/sapphire_pickaxe.json
 b3f9bae737bce9e72b1945a537a0e5fbe58a7800 assets/blobfirstmod/models/item/sapphire_pressure_plate.json
+923ff3aa0328807993ca002ed6d9d2d1c179c12c assets/blobfirstmod/models/item/sapphire_shovel.json
 1893b3e25b4381fc0347fa5c04a9533146370c58 assets/blobfirstmod/models/item/sapphire_slab.json
 ed7ea66ab134c94b14e66e697a16e398d4dd778d assets/blobfirstmod/models/item/sapphire_stairs.json
+d63ac3b2ba31df694c872a817cba9bb79749e082 assets/blobfirstmod/models/item/sapphire_sword.json
 ad0d4285fe76f68937f514c417e47e256f25a074 assets/blobfirstmod/models/item/sapphire_trapdoor.json
 c3273c78ace1a91e808df2e7b3fe0e12e68537af assets/blobfirstmod/models/item/sapphire_wall.json
 97d83a602412eae82b5f0c5af851f0fa3cb116e3 assets/blobfirstmod/models/item/strawberry.json

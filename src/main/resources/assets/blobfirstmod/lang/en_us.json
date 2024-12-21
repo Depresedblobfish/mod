@@ -1,11 +1,20 @@
 {
   "creativetab.blobmod_items": "Blob's Items",
+
   "item.blobfirstmod.sapphire": "Sapphire",
+  "item.blobfirstmod.sapphire_sword": "Sapphire Sword",
+  "item.blobfirstmod.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.blobfirstmod.sapphire_axe": "Sapphire Axe",
+  "item.blobfirstmod.sapphire_shovel": "Sapphire Shovel",
+  "item.blobfirstmod.sapphire_hoe": "Sapphire Hoe",
+
   "item.blobfirstmod.compressed_biomass": "Compressed Biomass",
   "item.blobfirstmod.raw_sapphire": "Raw Sapphire",
   "item.blobfirstmod.sapphire_nugget": "Sapphire Nugget",
   "item.blobfirstmod.metal_detector": "Metal Detector",
   "item.blobfirstmod.strawberry" : "Strawberry",
+  "item.blobfirstmod.sapphire_staff" : "Sapphire Staff",
+
   "block.blobfirstmod.sapphire_block": "Block of Sapphire",
   "block.blobfirstmod.raw_sapphire_block": "Block of Raw Sapphire",
   "block.blobfirstmod.sapphire_ore": "Sapphire Ore",
