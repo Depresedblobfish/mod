@@ -15,6 +15,11 @@
   "item.blobfirstmod.strawberry" : "Strawberry",
   "item.blobfirstmod.sapphire_staff" : "Sapphire Staff",
 
+  "item.blobfirstmod.sapphire_helmet" : "Sapphire Helmet",
+  "item.blobfirstmod.sapphire_chestplate" : "Sapphire Chestplate",
+  "item.blobfirstmod.sapphire_leggings" : "Sapphire Leggings",
+  "item.blobfirstmod.sapphire_boots" : "Sapphire Boots",
+
   "block.blobfirstmod.sapphire_block": "Block of Sapphire",
   "block.blobfirstmod.raw_sapphire_block": "Block of Raw Sapphire",
   "block.blobfirstmod.sapphire_ore": "Sapphire Ore",
