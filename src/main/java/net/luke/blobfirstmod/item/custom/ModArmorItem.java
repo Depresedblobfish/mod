@@ -18,7 +18,7 @@ public class ModArmorItem extends ArmorItem {
     private static final Map<ArmorMaterial, MobEffectInstance> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<ArmorMaterial, MobEffectInstance>())
                     .put(ModArmorMaterials.SAPPHIRE, new MobEffectInstance(MobEffects.NIGHT_VISION, 200, 1,
-                            false,false, true)).build();
+                            true,true, true)).build();
 
     public ModArmorItem(ArmorMaterial pMaterial, Type pType, Properties pProperties) {
         super(pMaterial, pType, pProperties);
@@ -62,19 +62,12 @@ public class ModArmorItem extends ArmorItem {
                 && !leggings.isEmpty() && !boots.isEmpty();
     }
 
-    private boolean hasCorrectArmorOn(ArmorMaterial material, Player player) {
-        for (ItemStack armorStack : player.getInventory().armor) {
-            if(!(armorStack.getItem() instanceof ArmorItem)) {
+    private static boolean hasCorrectArmorOn(ArmorMaterial material, Player player) {
+        for (ItemStack stack : player.getInventory().armor) {
+            if (!(stack.getItem() instanceof ArmorItem armorItem) || armorItem.getMaterial() != material) {
                 return false;
             }
         }
-
-        ArmorItem boots = ((ArmorItem)player.getInventory().getArmor(0).getItem());
-        ArmorItem leggings = ((ArmorItem)player.getInventory().getArmor(1).getItem());
-        ArmorItem breastplate = ((ArmorItem)player.getInventory().getArmor(2).getItem());
-        ArmorItem helmet = ((ArmorItem)player.getInventory().getArmor(3).getItem());
-
-        return helmet.getMaterial() == material && breastplate.getMaterial() == material &&
-                leggings.getMaterial() == material && boots.getMaterial() == material;
+        return true;
     }
 }
