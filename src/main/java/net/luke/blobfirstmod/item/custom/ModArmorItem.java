@@ -24,8 +24,7 @@ public class ModArmorItem extends ArmorItem {
         super(pMaterial, pType, pProperties);
     }
 
-    @Override
-    public void onArmorTick(ItemStack stack, Level world, Player player) {
+    public void onInventoryTick(ItemStack stack, Level world, Player player) {
         if(!world.isClientSide()) {
             if(hasFullSuitOfArmorOn(player)) {
                 evaluateArmorEffects(player);
