@@ -46,6 +46,10 @@ public class ModItems {
     public static final RegistryObject<Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots",
             () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS, new Item.Properties()));
 
+    public static final RegistryObject<Item> NIGHT_VISION_GOGGLES = ITEMS.register("night_vision_helmet",
+            () -> new ArmorItem(ModArmorMaterials.NIGHT_VISION, ArmorItem.Type.HELMET, new Item.Properties()));
+
+
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
             () -> new MetalDetectorItem(new Item.Properties()
                     .durability(120)

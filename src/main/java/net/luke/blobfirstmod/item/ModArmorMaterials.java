@@ -5,6 +5,7 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.function.Supplier;
@@ -12,6 +13,8 @@ import java.util.function.Supplier;
 public enum ModArmorMaterials implements ArmorMaterial {
     SAPPHIRE("sapphire", 26, new int[]{4,9,7,5}, 25,
             SoundEvents.ARMOR_EQUIP_NETHERITE, 3f, 0.2f,() -> Ingredient.of(ModItems.SAPPHIRE.get())),
+    NIGHT_VISION("night_vision", 12, new int[]{3,5,4,2}, 12,
+            SoundEvents.ARMOR_EQUIP_LEATHER, 2f, 0.2f,() -> Ingredient.of(Items.LEATHER)),
     ;
 
     private final String name;
